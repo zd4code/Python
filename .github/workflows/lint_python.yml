@@ -1,8 +1,7 @@
 name: lint_python
 on: [pull_request, push]
 jobs:
-  lint_python:
-    runs-on: ubuntu-latest
+  lint_pytt
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
